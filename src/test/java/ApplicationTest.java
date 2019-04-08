@@ -1,4 +1,4 @@
-import com.shanghai.controller.HelloController;
+import com.xinwu.controller.HelloController;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

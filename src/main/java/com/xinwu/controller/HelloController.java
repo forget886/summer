@@ -1,4 +1,4 @@
-package com.shanghai.controller;
+package com.xinwu.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
