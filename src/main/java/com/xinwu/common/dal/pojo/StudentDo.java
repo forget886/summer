@@ -78,8 +78,8 @@ public class StudentDo implements Serializable {
         }
         StudentDo other = (StudentDo) that;
         return (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
-            && (this.getName() == null ? other.getName() == null : this.getName().equals(other.getName()))
-            && (this.getGrade() == null ? other.getGrade() == null : this.getGrade().equals(other.getGrade()));
+                && (this.getName() == null ? other.getName() == null : this.getName().equals(other.getName()))
+                && (this.getGrade() == null ? other.getGrade() == null : this.getGrade().equals(other.getGrade()));
     }
 
     @Override

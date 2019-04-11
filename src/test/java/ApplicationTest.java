@@ -18,7 +18,7 @@ public class ApplicationTest {
     private StudentDao studentDao;
 
     @Test
-    public void selectByIdTest(){
+    public void selectByIdTest() {
         System.out.println(studentDao.selectById(1));
     }
 

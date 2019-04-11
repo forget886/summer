@@ -27,12 +27,12 @@ public class WebApplicationTest {
     private MockMvc mockMvc;
 
     @Before
-    public void init(){
+    public void init() {
         mockMvc = MockMvcBuilders.standaloneSetup(new HelloController()).build();
     }
 
     @Test
-    public void helloTest() throws Exception{
+    public void helloTest() throws Exception {
         mockMvc.perform(MockMvcRequestBuilders.get("/hello").accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
                 .andExpect(content().string(equalTo("hello world")));

@@ -35,9 +35,9 @@
 
     <!-- <context id="ssm" targetRuntime="MyBatis3">-->
     <context id="ssm" targetRuntime="MyBatis3Simple">
-        <plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin" />
-        <plugin type="org.mybatis.generator.plugins.SerializablePlugin" />
-        <plugin type="org.mybatis.generator.plugins.CaseInsensitiveLikePlugin" />
+        <plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin"/>
+        <plugin type="org.mybatis.generator.plugins.SerializablePlugin"/>
+        <plugin type="org.mybatis.generator.plugins.CaseInsensitiveLikePlugin"/>
         <plugin type="org.mybatis.generator.plugins.ToStringPlugin"/>
         <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
             <property name="mappers" value="tk.mybatis.mapper.common.Mapper"/>
@@ -47,9 +47,9 @@
         <!--<plugin type="org.mybatis.generator.plugins.VirtualPrimaryKeyPlugin" />-->
 
         <commentGenerator>
-            <property name="suppressDate" value="true" />
+            <property name="suppressDate" value="true"/>
             <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
-            <property name="suppressAllComments" value="false" />
+            <property name="suppressAllComments" value="false"/>
         </commentGenerator>
         <!--
         <jdbcConnection driverClass="oracle.jdbc.driver.OracleDriver" connectionURL="jdbc:oracle:thin:@10.100.1.20:1521:db1"
@@ -61,13 +61,13 @@
         </jdbcConnection>
 
         <javaTypeResolver>
-            <property name="forceBigDecimals" value="false" />
+            <property name="forceBigDecimals" value="false"/>
         </javaTypeResolver>
 
         <javaModelGenerator targetPackage="com.xinwu.common.dal.pojo" targetProject="src/main/java">
-            <property name="constructorBased" value="true" />
-            <property name="enableSubPackages" value="true" />
-            <property name="trimStrings" value="true" />
+            <property name="constructorBased" value="true"/>
+            <property name="enableSubPackages" value="true"/>
+            <property name="trimStrings" value="true"/>
         </javaModelGenerator>
 
 
@@ -75,12 +75,12 @@
             <property name="enableSubPackages" value="true" />
         </sqlMapGenerator>-->
         <sqlMapGenerator targetPackage="com.xinwu.common.dal.dao" targetProject="src/main/resources">
-            <property name="enableSubPackages" value="true" />
+            <property name="enableSubPackages" value="true"/>
         </sqlMapGenerator>
 
         <javaClientGenerator type="XMLMAPPER" targetPackage="com.xinwu.common.dal.dao"
                              targetProject="src/main/java">
-            <property name="enableSubPackages" value="true" />
+            <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
 
 
@@ -94,9 +94,9 @@
             ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
         -->
         <table schema="mybatis" tableName="student" domainObjectName="StudentDo" mapperName="StudentDao">
-            <property name="constructorBased" value="true" />
-            <property name="useActualColumnNames" value="false" />
-            <property name="ignoreQualifiersAtRuntime" value="true" />
+            <property name="constructorBased" value="true"/>
+            <property name="useActualColumnNames" value="false"/>
+            <property name="ignoreQualifiersAtRuntime" value="true"/>
         </table>
 
     </context>
