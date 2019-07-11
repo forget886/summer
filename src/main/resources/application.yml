@@ -1,3 +1,9 @@
 spring:
   profiles:
-    active: production
+    active: dev
+#  thymeleaf:
+#    mode: HTML5
+#    cache: false
+#    prefix: classpath:/templates/
+#    suffix: .html
+

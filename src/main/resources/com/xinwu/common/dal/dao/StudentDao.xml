@@ -8,4 +8,9 @@
             <arg column="grade" javaType="java.lang.String" jdbcType="VARCHAR"/>
         </constructor>
     </resultMap>
+    
+    <insert id="insertStudent" parameterType="com.xinwu.common.dal.pojo.StudentDo" useGeneratedKeys="true" keyProperty="id">
+        insert into student(name,grade)
+        values (#{name},#{grade})
+    </insert>
 </mapper>
