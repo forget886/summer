@@ -1,4 +1,4 @@
-import com.xinwu.bean.School;
+import com.xinwu.component.School;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 

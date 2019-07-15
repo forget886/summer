@@ -1,4 +1,4 @@
-package com.xinwu.bean;
+package com.xinwu.vo;
 
 import com.xinwu.vo.Result;
 import com.xinwu.vo.ResultCode;

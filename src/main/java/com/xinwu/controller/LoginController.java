@@ -1,6 +1,6 @@
 package com.xinwu.controller;
 
-import com.xinwu.bean.ResultFactory;
+import com.xinwu.vo.ResultFactory;
 import com.xinwu.vo.Result;
 import com.xinwu.vo.VueLoginInfoVo;
 import org.springframework.validation.BindingResult;

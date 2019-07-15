@@ -1,4 +1,4 @@
-package com.xinwu.bean;
+package com.xinwu.component;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
