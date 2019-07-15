@@ -5,3 +5,5 @@ target/
 .project
 .DS_Store
 *.log
+.idea/*
+.idea/compiler.xml

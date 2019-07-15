@@ -7,3 +7,10 @@ spring:
 #    prefix: classpath:/templates/
 #    suffix: .html
 
+school:
+  name: 天一中学
+  address: 无锡
+rank:
+  name: 黄金
+
+

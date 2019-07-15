@@ -11,9 +11,8 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  * @author: 张辉
  * @create: 2019-04-08
  **/
-@SpringBootTest(classes = Application.class)
-@RunWith(SpringJUnit4ClassRunner.class)
-public class ApplicationTest {
+
+public class ApplicationTest extends BaseTest{
 
     @Autowired
     private StudentDao studentDao;
