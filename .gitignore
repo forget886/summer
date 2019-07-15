@@ -7,3 +7,4 @@ target/
 *.log
 .idea/*
 .idea/compiler.xml
+.idea/workspace.xml
