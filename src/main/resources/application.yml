@@ -12,5 +12,8 @@ school:
   address: 无锡
 rank:
   name: 黄金
+server:
+  port: 8081
+
 
 

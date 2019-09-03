@@ -1,4 +1,4 @@
-package com.xinwu.component;
+package com.xinwu.config;
 
 import org.springframework.context.annotation.Condition;
 import org.springframework.context.annotation.ConditionContext;

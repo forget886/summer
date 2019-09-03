@@ -22,7 +22,6 @@ public class LoginController {
      * 给VueLoginInfoVo对象加入@Valid注解，并在参数中加入BindingResult来获取错误信息。
      * 在逻辑处理中我们判断BindingResult知否含有错误信息，如果有错误信息，则直接返回错误信息。
      */
-    @CrossOrigin
     @PostMapping(value = "/api/login")
     public Result login(@Valid @RequestBody VueLoginInfoVo loginInfoVo, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
